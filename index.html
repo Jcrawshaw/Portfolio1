@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>sPortfolio</title>
+    <link href='http://fonts.googleapis.com/css?family=Lato:100,300' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <script type="text/javascript" src="js/jquery-1.11.2.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <img class="title-logo" src="images/Profile.jpg" alt="Profile Picture">
+        </div>
+        <div class="col-md-6 text-right text-uppercase">
+          <h1 class="title-super text-thin">Jenny Crawshaw</h1>
+          <h4>Web Developer</h4>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+          <hr>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+          <img class="img-responsive" src="images/Screenshot.png" alt="Main Image">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+          <h2 class="text-muted"><strong>Featured Work</strong></h2>
+        </div>
+      </div>
+      <div class="row text-center">
+        <div class="col-md-4">
+          <img class="img-responsive app-image" src="images/trailfinder.png" alt="TrailFinder main page screenshot"  data-toggle="modal" data-target="#project1">
+          <h3 class="text-uppercase">TrailFinder</h3>
+          <p><a href="https://github.com/Jcrawshaw/trailfinder">Github Source Code</a></p>
+        </div>
+        <div class="col-md-4">
+          <img class="img-responsive app-image" src="images/blocmarks.jpg" alt="Blocmarks Logo" >
+          <h3 class="text-uppercase">Blocmarks</h3>
+          <p><a href="https://github.com/Jcrawshaw/blocmarks">Github Source Code</a></p>
+        </div>
+        <div class="col-md-4">
+          <img class="img-responsive app-image" src="images/TTRlogo.png" alt="Trinity Trail Runners Logo" >
+          <h3 class="text-uppercase">Trinity Trail Runners</h3>
+          <p><a href="http://trinitytrailrunners.com">View Site</a></p>
+        </div>
+      </div>
+    </div>
+    <footer class="footer text-center"><h5>copyright 2015 Jenny Crawshaw. Find me on <a href="https://github.com/Jcrawshaw">Github</a> or email jennycrawshaw@gmail.com</h5>
+  </footer>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script> -->
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <!-- <script src="js/bootstrap.min.js"></script> -->
+    <!-- Modal -->
+<div class="modal fade" id="project1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="modal-title" id="myModalLabel">Trail Finder</h4>
+      </div>
+      <div class="modal-body">
+        <img class="img-responsive" src="images/trailfinder.png" alt="TrailFinder main page screenshot">
+        This is my solo web application written using Ruby On Rails, completed through Bloc's Web Development bootcamp.
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+  </body>
+</html>
